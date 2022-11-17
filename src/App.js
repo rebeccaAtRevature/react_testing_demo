@@ -11,11 +11,13 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://ultimateqa.com"
           target="_blank"
           rel="noopener noreferrer"
+          // add data "-" attribute to provide a better identifier for testing this element
+          data-testid="learn-link"
         >
-          Learn React
+          Learn Testing and Dev
         </a>
       </header>
     </div>
